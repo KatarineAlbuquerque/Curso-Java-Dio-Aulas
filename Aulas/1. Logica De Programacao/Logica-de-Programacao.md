@@ -14,16 +14,16 @@ Escolha o Sistema Operacional e baixe os arquivos da aula.
 
 ### Conceitos:
 
-1. Tipos de variáveis:
-	a. inteiro
-	b. real
-	c. caracteres
-	d. Strings
-2. Constantes:
-	a. const
-3. Condicionais:
-	a. se/senao
-	b. caso
-4. Laços de Repetição:
-	a. faça/enquanto
-	b. para
+- Tipos de variáveis:
+	* inteiro
+	* real
+	* caracteres
+	* Strings
+- Constantes:
+	* const
+- Condicionais:
+	* se/senao
+	* caso
+- Laços de Repetição:
+	* faça/enquanto
+	* para
