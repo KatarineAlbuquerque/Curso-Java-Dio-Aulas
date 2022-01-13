@@ -44,18 +44,18 @@ Baixar de acordo com o Sistema Operacional.
 ### Importante Conhecer:
 
 - SHA1:
-	a. possui hash seguro
-	b. funções da NSA (Agência de Segurança Nacional dos EUA)
-	c. gera caracteres de 40 dígitos
+	* possui hash seguro
+	* funções da NSA (Agência de Segurança Nacional dos EUA)
+	* gera caracteres de 40 dígitos
 - Objetos Fundamentais:
-	a. BLOBS (Arquivos) = conteúdo
-	b. TREES (Árvores) = armazenam BLOBS
-	c. COMMITS = único para cada autor
-		- TREE
-		- PARENTE
-		- Autor
-		- Mensagem
-		- Timestamp (data/hora)
+	* BLOBS (Arquivos) = conteúdo
+	* TREES (Árvores) = armazenam BLOBS
+	* COMMITS = único para cada autor
+		* TREE
+		* PARENTE
+		* Autor
+		* Mensagem
+		* Timestamp (data/hora)
 
 ### GIT (Distribuído e Seguro)
 
@@ -64,49 +64,49 @@ Baixar de acordo com o Sistema Operacional.
 ### Criando uma chave SSH:
 
 - Entre no seu Github
-	1. Entre no Perfil
-	2. Vá até Settings
-	3. Procure por SSH and GPS
-	4. Clique para criar uma Nova Chave
+	* Entre no Perfil
+	* Vá até Settings
+	* Procure por SSH and GPS
+	* Clique para criar uma Nova Chave
 
 - No GitBash:
-	- Digite: ssh-keygen -t ed25519 -C seuemail@email.com
-	- <ENTER>
-	- Navegue até a pasta onde foi criado o arquivo.
-	- Digite: cat id_ed25519.pub
-	- <ENTER>
-	- copie a chave que aparecer na tela.
+	* Digite: ssh-keygen -t ed25519 -C seuemail@email.com
+	* ENTER
+	* Navegue até a pasta onde foi criado o arquivo.
+	* Digite: cat id_ed25519.pub
+	* ENTER
+	* copie a chave que aparecer na tela.
 
 - No Github:
-	- Digite um título
-	- colar chave criada lá no GitBash
+	* Digite um título
+	* colar chave criada lá no GitBash
 
 - Volte ao GitBash:
-	- Digite: eval $(ssh-agent -s)
-	- <ENTER>
-	- Digite: ssh-add id_ed25519
-	- <ENTER>
+	* Digite: eval $(ssh-agent -s)
+	* ENTER
+	* Digite: ssh-add id_ed25519
+	* ENTER
 
 Fim, sua chave já está ativa!
 
 ### Documentação:
 
 - [Gerar uma nova chave SSH] (https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- [Outros assuntos](https://docs.github.com)
+- [Outros assuntos] (https://docs.github.com)
 
 ### Token de Acesso Pessoal
 
 - No Github
-	1. Vá em Perfil
-	2. Settings
-	3. Procure por Personal Acess Tokens
-	4. Clique em Gerar Token
-	5. De um Nome
-	6. Em Expirações: Escolha um tempo
-	7. Em Select Scopes - selecione (marque) repo
-	8. Clique em gerar token
-	9. Copie o token para que não ocorra esquecimento.
-	10. Após isso não será mais exibido o token.
+	* Vá em Perfil
+	* Settings
+	* Procure por Personal Acess Tokens
+	* Clique em Gerar Token
+	* De um Nome
+	* Em Expirações: Escolha um tempo
+	* Em Select Scopes - selecione (marque) repo
+	* Clique em gerar token
+	* Copie o token para que não ocorra esquecimento.
+	* Após isso não será mais exibido o token.
 
 Use o token no lugar da senha.
 Automaticamente o Git saberá se você possui um token.
@@ -115,39 +115,39 @@ Automaticamente o Git saberá se você possui um token.
 ### Comandos do Git
 
 - Comandos básicos:
-	- ls (lista)
-	- ls -a (lista arquivos ocultos)	
-	- ctrl+l (limpa)
+	* ls (lista)
+	* ls -a (lista arquivos ocultos)	
+	* ctrl+l (limpa)
 	
 - Comando da máquina local:
-	- git init
-	- git add . ou git add *
-	- git commit -m "mensagem"
+	* git init
+	* git add . ou git add *
+	* git commit -m "mensagem"
 
 - Comandos acesso usuário:
-	- git config --global user.nome "NOME IGUAL AO QUE ESTÁ NO GITHUB"
-	- git config --global user.email "EMAIL IGUAL AO QUE ESTÁ NO GITHUB" 
+	* git config --global user.nome "NOME IGUAL AO QUE ESTÁ NO GITHUB"
+	* git config --global user.email "EMAIL IGUAL AO QUE ESTÁ NO GITHUB" 
 
 - Comandos listar configurações:
-	- git config --list
-	- q para sair
+	* git config --list
+	* q para sair
 
 - Desloga usuário:
-	- git config --global -unset user.nome "NOME IGUAL AO QUE ESTÁ NO GITHUB"
-	- git config --global -unset user.email "EMAIL IGUAL AO QUE ESTÁ NO GITHUB" 
+	* git config --global -unset user.nome "NOME IGUAL AO QUE ESTÁ NO GITHUB"
+	* git config --global -unset user.email "EMAIL IGUAL AO QUE ESTÁ NO GITHUB" 
 
 - Comando caso haja conflitos:
-	- git pull
-	- altere o arquivo e dê um git add . e um commit
+	* git pull
+	* altere o arquivo e dê um git add . e um commit
 
 - Verificar Status:
-	- git status
+	* git status
 
 - Comando para clonar arquivo remoto para máquina local:
-	- git clone https://github.com/owner/seu_repositorio.git
+	* git clone https://github.com/owner/seu_repositorio.git
 
 - Comando para colocar o dados no Servidor do Github:
-	- git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+	* git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 
 ### Ciclo que ocorre na máquina local
 
