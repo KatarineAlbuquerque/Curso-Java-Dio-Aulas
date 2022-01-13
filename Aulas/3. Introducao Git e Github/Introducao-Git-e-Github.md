@@ -1,11 +1,11 @@
-#Introdução ao Git e Github
-##Professor Otávio Reis
+# Introdução ao Git e Github
+## Professor Otávio Reis
 
-###Definição:
+### Definição:
 
 É um Sistema de Controle de Versões distribuídos.
 
-###Características:
+### Características:
 
 1. Controle de Versão
 2. Armazenamento em Nuvem
@@ -13,35 +13,35 @@
 4. Melhorar seu Código
 5. Reconhecimento
 
-###Instalações Necessárias:
+### Instalações Necessárias:
 
 Baixar de acordo com o Sistema Operacional.
 
 - [Git](https://git-scm.com/)
 
-###Dicas de uso de Terminal:
+### Dicas de uso de Terminal:
 
-#####Windows
+##### Windows
 
 - cd
 - dir
 - mkdir
 - del/ rmdir
 
-#####Unix
+##### Unix
 
 - cd
 - ls
 - mkdir
 - rm -rf
 
-#####Criar arquivo: echo nome_do_arquivo > nome_do_arquivo.extensão
+##### Criar arquivo: echo nome_do_arquivo > nome_do_arquivo.extensão
 
-#####Delete Arquivo: del nome_do_arquivo.extencao
+##### Delete Arquivo: del nome_do_arquivo.extencao
 
-#####Delete pasta: rmdir nome_da_pasta /S /Q
+##### Delete pasta: rmdir nome_da_pasta /S /Q
 
-###Importante Conhecer:
+### Importante Conhecer:
 
 - SHA1:
 	a. possui hash seguro
@@ -57,11 +57,11 @@ Baixar de acordo com o Sistema Operacional.
 		- Mensagem
 		- Timestamp (data/hora)
 
-###GIT (Distribuído e Seguro)
+### GIT (Distribuído e Seguro)
 
 - contém todas as característica citadas acima.
 
-###Criando uma chave SSH:
+### Criando uma chave SSH:
 
 - Entre no seu Github
 	1. Entre no Perfil
@@ -89,12 +89,12 @@ Baixar de acordo com o Sistema Operacional.
 
 Fim, sua chave já está ativa!
 
-###Documentação:
+### Documentação:
 
 - [Gerar uma nova chave SSH] (https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Outros assuntos](https://docs.github.com)
 
-###Token de Acesso Pessoal
+### Token de Acesso Pessoal
 
 - No Github
 	1. Vá em Perfil
@@ -112,7 +112,7 @@ Use o token no lugar da senha.
 Automaticamente o Git saberá se você possui um token.
 
 
-###Comandos do Git
+### Comandos do Git
 
 - Comandos básicos:
 	- ls (lista)
@@ -149,7 +149,7 @@ Automaticamente o Git saberá se você possui um token.
 - Comando para colocar o dados no Servidor do Github:
 	- git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 
-###Ciclo que ocorre na máquina local
+### Ciclo que ocorre na máquina local
 
 1. Unmodified (Sem alteração)
 2. Modified (Modificado)

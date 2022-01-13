@@ -1,7 +1,7 @@
-#Projeto Git e Github
-##Curso Dio Java
+# Projeto Git e Github
+## Curso Dio Java
 
-###Resumo das Aulas:
+### Resumo das Aulas:
 
 1. Lógica de Programação
 2. Estrutura de Dados

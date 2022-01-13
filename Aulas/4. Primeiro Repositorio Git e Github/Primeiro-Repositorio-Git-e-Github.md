@@ -1,9 +1,9 @@
-#Primeiro Repositório Git e Github
-##Professor Venilton Falvo JR
+# Primeiro Repositório Git e Github
+## Professor Venilton Falvo JR
 
-###Resumo da Aula Anterior sobre a Introdução:
+### Resumo da Aula Anterior sobre a Introdução:
 
-#####Sendo Proposto um Desafio:
+##### Sendo Proposto um Desafio:
 
 - Desafio composto de resumo de aulas anteriores da Dio.
 

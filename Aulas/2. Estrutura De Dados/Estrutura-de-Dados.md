@@ -1,11 +1,11 @@
-#Estrutura de Dados
-##Professor Bruno Dias
+# Estrutura de Dados
+## Professor Bruno Dias
 
-###Definição:
+### Definição:
 
 Um algoritmo estruturado de forma organizada e representado de várias formas.
 
-###Estruturas Principais:
+### Estruturas Principais:
 
 - Vetores/Matrizes (Arrays)
 - Registro
@@ -16,14 +16,14 @@ Um algoritmo estruturado de forma organizada e representado de várias formas.
 - Tabela Hash
 - Grafos
 
-###Vetores/Matrizes (Arrays)
+### Vetores/Matrizes (Arrays)
 
 - variáveis do mesmo tipo
 
-#####Vetor (Uni-dimensional)
-#####Matriz (Mult-dimensional)
+##### Vetor (Uni-dimensional)
+##### Matriz (Mult-dimensional)
 
-###Registro
+### Registro
 
 - formato especializado
 - mais de um tipo
@@ -44,62 +44,62 @@ cliente.cpf
 cliente.email
 cliente.telefone
 
-###Listas
+### Listas
 
 - ordem específica
 - tamanho ajustável/flexível
 
 Lembre-se que Arrays tem tamanhos fixos, já definidos.
 
-####Há dois tipos de Listas:
+#### Há dois tipos de Listas:
 
 - Ligada = Nó (índice) que conhece o próximo elemento.
 - Duplamente Ligada = varia a lista ligada, fazendo navegação reversa (vice-e-versa)
 
-###Pilhas
+### Pilhas
 
 - acessa somente um item por vez
 - restrita
 
-####Tem dois Tipos:
+#### Tem dois Tipos:
 
 - LIFO ou UEPS = O primeiro a entrar é o último a sair.
 - FIFO ou PEPS = O primeiro que entra é o primeiro a sair.
 
-#####LIFO ou UEPS:
+##### LIFO ou UEPS:
 
 Tem dois métodos:
 
 - PUSH = ENTRA NA LISTA
 - POP = SAI DA LISTA
 
-#####FIFO ou PEPS:
+##### FIFO ou PEPS:
 
 Tem dois métodos:
 
 - ENQUEUE = ENTRA NA LISTA
 - DEQUEUE = SAI DA LISTA
 
-###Filas
+### Filas
 
 - possui regras para incluir e remover
 
 Segue a teoria do FIFO.
 
-#####1 , 2 , ... , n , n + 1
+##### 1 , 2 , ... , n , n + 1
 
 remover a partir do primeiro elemento (1) e insere no (n + 1)
 
-###Árvores
+### Árvores
 
 - hierárquica
 - facilita a busca
 
-###Tabela Hash
+### Tabela Hash
 
 - representada por chave/valor para pesquisas
 
-###Grafos
+### Grafos
 
 - relaciona objetos através de arestas
 - aceita qualquer tipo, devido ser relacionamentos de objetos
